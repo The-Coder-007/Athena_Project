@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.join-img-main img {
+  width: 100%;
+}
+
+.join-img-main {
+  position: relative;
+}
+
+.join-img-text h5 {
+  position: absolute;
+  top: 16%;
+  left: 5%;
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+}
+
+.join-img-text h2 {
+  position: absolute;
+  top: 31%;
+  left: 5%;
+  font-size: 58px;
+  font-weight: 600;
+  color: white;
+}
+
+.join-img-text button {
+  position: absolute;
+  top: 58%;
+  left: 5%;
+}
+
+.join-img-text button span {
+  font-size: 32px;
+  font-family: 'League Spartan', sans-serif !important;
+}
+
+.fact {
+  background-color: rgb(238, 138, 16);
+  color: white;
+  padding: 15px 0;
+}
+
+.join-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  padding: 40px 0;
+}
+
+.j-txt {
+  font-size: 15px;
+  padding: 40px 20px;
+  margin-left: 8px;
+}
+
+.join-list {
+  background-color: rgba(21, 21, 184, 0.929);
+  color: white;
+}
+
+.j-m {
+  padding: 3rem 0;
+}
+
+.join-list h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.advantage {
+  padding: 20px 0;
+
+}
+
+.advantage li {
+  font-size: 18px;
+  margin-left: 25px;
+  line-height: 25px
+}
+
+.guidance {
+  padding: 20px 0;
+}
+
+.guidance li {
+  font-size: 18px;
+  margin-left: 25px;
+  line-height: 25px
+}
+
+/* form start  */
+
+.main-s {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+
+.sign-up {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sign-up .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.sign-up .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #9b59b6;
+}
+
+form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+  display: none;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0
+}
+
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover {
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media(max-width: 584px) {
+  .sign-up {
+    max-width: 100%;
+    /* display: none; */
+  }
+
+  .main-s {
+    position: unset;
+  }
+
+  .join-img-main {
+    display: none;
+  }
+
+  .join-img-text {
+    display: none;
+  }
+
+}

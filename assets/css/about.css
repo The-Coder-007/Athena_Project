@@ -1,0 +1,257 @@
+.about-main {
+    position: relative;
+}
+
+.about-main .img-mobile {
+    display: none;
+}
+
+.text-block {
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block h4 {
+    font-size: 44px;
+    line-height: 42px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.text-block h4 b {
+    font-size: 42px;
+    line-height: 46px;
+    font-family: 'League Spartan', sans-serif;
+    color: #107869;
+}
+
+.text-block p {
+    font-size: 25px;
+    line-height: 28px;
+    color: #141414 !important;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.col-md-3{
+    padding-right: 0px !important;
+    padding-left: 3px !important;
+}
+
+.about-m{
+    margin-top: 60px !important;
+}
+.about-text{
+   padding-left: 80px !important;
+  
+}
+
+.about-text h1{
+    font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+  line-height: 19.8px;
+  color: #106268;
+  font-weight: 600;
+  margin-top: 90px !important;
+}
+
+.about-text h3{
+    font-family: 'Crimson Pro', serif;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 20px !important;
+}
+
+.about-text h4{
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    line-height: 19.8px;
+    font-weight: 200;
+}
+
+
+.about-img-1 img{
+    margin: 8px 0 !important;
+}
+
+.apr-bg{
+    background-color: #08313a;
+    color: white;
+    padding: 80px 40px !important;
+}
+
+
+.apr-text h4{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    line-height: 19.8px;
+    color: #adcf62;
+    font-weight: 600;
+}
+
+.apr-text h3{
+    font-family: 'Crimson Pro', serif;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 20px !important;
+}
+
+.apr-text h5{
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    line-height: 25.8px;
+    font-weight: 200;
+}
+
+.apr-icon{
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.mentor{
+    margin-top: 90px;
+}
+.mentor-p{
+    padding-left: 60px !important;
+}
+
+.mentor-text h4{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    line-height: 19.8px;
+    color: #106268;
+    font-weight: 600;
+}
+
+.mentor-text h3{
+    font-family: 'Crimson Pro', serif;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 20px !important;
+}
+
+.mentor-text h5{
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    line-height: 25.8px;
+    font-weight: 200;
+}
+
+.mentor-li {
+    font-family: 'Crimson Pro', serif;
+    font-size: 23px;
+    line-height: 32.8px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.mentor-span{
+    display: block;
+    text-align: right !important;
+}
+
+.mentor-list{
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 180, 180, 0.5) ;
+}
+
+.mentor-list:hover{
+    background-color: #08313a;
+   color: white;
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    
+    .about-main .img-desk {
+        display: none;
+
+    }
+
+    .about-main .img-mobile {
+        display: block;
+    }
+    
+    .text-block {
+        display: none;
+    }
+
+    .about-img-1 img{
+        height: 154.19px;
+        width: 137px;
+        /* padding: 0 6 ; */
+        
+    }
+    .about-img-2 img{
+       height: 333px;
+       padding-top: 8px;
+       /* padding-right: 20px !important; */
+       /* display: none; */
+
+    }
+    
+    .about-m{
+        margin-top: 10px !important;
+        text-align: center;
+    }
+    .about-text{
+       padding-left: 0px !important;
+      
+    }
+    
+    .about-text h1{
+        font-family: 'League Spartan', sans-serif;
+      font-size: 18px;
+      line-height: 19.8px;
+      color: #106268;
+      font-weight: 600;
+      margin-top: 60px !important;
+    }
+    
+    .about-text h3{
+        font-family: 'Crimson Pro', serif;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 30px !important;
+    }
+    
+    .about-text h4{
+        font-family: 'Crimson Pro', serif;
+        font-size: 18px;
+        line-height: 19.8px;
+        font-weight: 200;
+    }
+
+    .apr-text h4{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 18px;
+        line-height: 19.8px;
+        color: #adcf62;
+        font-weight: 600;
+    }
+    
+    .apr-text h3{
+        font-family: 'Crimson Pro', serif;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 20px !important;
+    }
+    
+    .apr-text h5{
+        font-family: 'Crimson Pro', serif;
+        font-size: 14px;
+        line-height: 18.8px;
+        font-weight: 200;
+    }
+
+    .apr-bg{
+        padding: 40px 20px !important;
+    }
+
+}
